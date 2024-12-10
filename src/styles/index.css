@@ -1,4 +1,31 @@
 
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.boxes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 120px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    border-radius: 15px;
+}
+  
+
+.large-text {
+    font-size: 5em;
+}
+
 /* 
 
     You can write your own styles here...
